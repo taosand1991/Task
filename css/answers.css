@@ -1,0 +1,72 @@
+
+#sampleQuestionCssHtml .sampleCode em {color: red;}
+
+.main-container{
+    width: 90%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #5b647c;;
+}
+
+
+.nav-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+    color: #ffffff;
+    padding: 3px;
+    font-weight: bolder;
+    background-color: #002E6E;
+    border-bottom: 1px solid #000;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0,0.5);
+}
+
+
+.nav-content .logo {
+    flex-basis: 25%;
+    padding: 2px;
+    width: 50px;
+}
+
+.nav-content .logo img {
+    width: 150px;
+    border: none;
+}
+
+.nav-content .second-nav {
+    flex: 1;
+    font-size: 0.75rem
+}
+
+.nav-content .third-nav {
+    margin-right: 5px;
+    font-size: 0.75rem
+}
+
+
+.text-content{
+    padding: 0px 5px;
+    color: #ffffff;
+    display: block;
+    margin-top: -10px;
+}
+
+.text-content p {
+   font-size: .9rem;
+}
+
+.text-content .text-inner-content {
+    margin-top: -15px;
+}
+
+.answer-section {
+    padding: 5px;
+    line-height: 20px;
+}
+
+#temperature {
+    font-weight: bolder;
+}

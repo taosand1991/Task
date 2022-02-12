@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Bazaarvoice Technical Support Engineer Technical Assessment</title>
+    <meta name="description" content="Technical Assessment given to Technical Support Engineer Applicants">
+    <meta name="author" content="Bazaarvoice">
+    <link type="text/css" rel="stylesheet" href="css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="js/syntaxhighlighter/styles/shCore.css">
+    <link type="text/css" rel="stylesheet" href="js/syntaxhighlighter/styles/shThemeDefault.css">
+    <link type="text/css" rel="stylesheet" href="css/questions.css">
+    <link type="text/css" rel="stylesheet" href="css/answers.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/react.production.min.js"></script>
+    <script type="text/javascript" src="js/react-dom.production.min.js"></script>
+    <script type="text/javascript" src="js/babel.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div class="inner">
+                <h1>Technical Support Engineer Technical Assessment</h1>
+            </div>
+        </header>
+        <div id="instructions">
+            <div class="inner">
+                <h2>Instructions</h2>
+                <p>
+                    Thank you for interviewing at Bazaarvoice! This document serves as the Bazaarvoice Technical Assessment for Technical Support Engineers. The purpose of this assessment is to gauge your fluency of the core toolset our engineers use on a daily basis.
+                </p>
+                <p>
+                    The areas we measure on are skill, knowledge, logic, and communication so even if you don't know how to write the code for a specific question, pseudo code or an explanation of your troubleshooting steps are better than leaving it blank.
+                </p>
+                <p>
+                    Please follow these guidelines:
+                </p>
+                <ul>
+                    <li>
+                        You may use online resources (e.g. <a href="http://www.google.com/">Google</a>.)
+                    </li>
+                    <li>
+                        You may not consult with any other person to assist you in this test.
+                    </li>
+                    <li>
+                        This page must render consistently in the latest stable (non-beta) version of Chrome, Firefox, Edge, and Safari.
+                    </li>
+                    <li>
+                        Provide your answers by editing this document within the <code>TODO</code> comments.
+                        <br/>
+                        <pre class="brush: html">
+                                &lt;div class=&quot;answer&quot;&gt;
+                                    &lt;p&gt;
+                                        &lt;span class=&quot;prefix&quot;&gt;Answer:&lt;/span&gt;
+                                    &lt;/p&gt;
+                                    &lt;!-- TODO - Begin Answer --&gt;
+
+                                    &lt;!-- End Answer --&gt;
+                                &lt;/div&gt;
+                            </pre>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="main" role="main">
+            <div class="info">
+                Questions A &amp; B are sample questions that have <b>already been answered.</b>
+                <br/> Read them closely and use their source code as an example of how to complete this test.
+            </div>
+            <p class="listPrefix">Example A</p>
+            <div id="sampleQuestionCssHtml" class="sampleQuestionContainer">
+                <div class="prompt">
+                    <p>
+                        <span class="prefix">Prompt:</span> Recreate text/formatting (excluding the border) depicted in the following image
+                    </p>
+                    <img src="img/sampleQuestion1.png" title="Use this image to guide your answer." />
+                </div>
+                <div class="answer">
+                    <p>
+                        <span class="prefix">Answer:</span>
+                    </p>
+                    <div class="sampleCode">
+                        <!-- 
+                            TODO - Begin Answer 
+                        -->
+                        <style type="text/css">
+                        #sampleQuestionCssHtml .sampleCode .edit {
+                            text-decoration: line-through;
+                        }
+                        .exampleQuestion {
+                            font-family: serif;
+                        }
+                        </style>
+                        <p class="exampleQuestion">
+                            When answering a question, there may be <em>more than one</em> possible answer. For example, similar results may be achieved by <strong>adding or modifying the html, adding
+                                styles inline, in a style tag or in answers.css.</strong>. In those situations you will need to <span class="edit">panic and guess randomly</span> use your own better judgment.
+                        </p>
+                        <p class="exampleQuestion">
+                            Relax, try to finish as much as you can in the time allotted and good luck!.
+                        </p>
+                        <!-- 
+                            End Answer
+                        -->
+                    </div>
+                </div>
+            </div>
+            <p class="listPrefix">Example B</p>
+            <div id="sampleQuestionJSComment" class="sampleQuestionContainer">
+                <div class="prompt">
+                    <p>
+                        <span class="prefix">Prompt:</span> : Comment out the following line:
+                    </p>
+                    <pre class="brush: js">
+                            Some questions require familiarity with JavaScript or jQuery.
+                            Others are open-ended.
+                            var exampleB = null;
+                        </pre>
+                </div>
+                <div class="answer">
+                    <p><span class="prefix">Answer:</span></p>
+                    <!-- 
+                        TODO - Begin Answer 
+                    -->
+                    <pre class="brush: js">
+                        // Some questions require familiarity with JavaScript or jQuery.
+                        // Others are open-ended.
+                        var exampleB = null;
+                    </pre>
+                    <!-- 
+                        End Answer
+                    -->
+                </div>
+            </div>
+            <div class="info">Your turn!</div>
+            <h2>Questions</h2>
+            <ol>
+                <li id="applicantName" class="questionContainer">
+                    <div class="prompt">
+                        <p>
+                            <span class="prefix">Prompt:</span> Add your name to this page and make it appear as shown in the following image:
+                        </p>
+                        <img src="img/applicantName.png" title="Use this image to guide your answer." />
+                    </div>
+                    <div class="answer">
+                        <p><span class="prefix">Answer:</span></p>
+                        <!--- Answer is below-->
+                        <div class='main-container'>
+                            <div class='nav-content'>
+                                <div class="logo">
+                                   <img src="img/bazaarvoice_wordmark.png" alt="bazaarvoice">
+                                </div>
+                                <div class="second-nav">
+                                    Managed Services Engineer Technical Assessment
+                                </div>
+                                <div class='third-nav'>
+                                    Name: Taofeek Adebayo Adesina
+                                </div>
+                            </div>
+                            <div class='text-content'>
+                                <h3>Instructions</h3>
+                                <div class='text-inner-content'>
+                                    <p>
+                                        Thank you for interviewing at Bazaarvoice! This document serves as the Bazaarvoice Technical Assessment for Technical Support Engineers. The purpose of this assessment is to gauge your fluency of the core toolset our engineers use on a daily basis.
+                                    </p>
+                                    <p>
+                                        The areas we measure on are skill, knowledge, logic, and communication so even if you don't know how to write the code for a specific question, pseudo code or an explanation of your troubleshooting steps are better than leaving it blank.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li id="consoleError" class="questionContainer">
+                    <div class="prompt">
+                        <p>
+                            <span class="prefix">Prompt:</span> Open your browser’s console. You should see an error.
+                            <ol type="a">
+                                <li>Identify the error and correct it.</li>
+                                <li>How would you explain what you did to a non-technical client?</li>
+                            </ol>
+                        </p>
+                    </div>
+                    <div class="answer">
+                        <p>
+                            <span class="prefix">Answer:</span>
+                        </p>
+                       <div class='answer-section'>
+                           <p>The error shown in the console of the browser was due to the fact a named function Question2 
+                                is being called and it should console log a string in the console, but, the string was not being
+                                quoted and that is the reason for the error in the console.
+                                In any programming language, a string must be quoted and it must be differentiated from comments.
+
+                           </p>
+                       </div>
+                    </div>
+                </li>
+                <li id="cssOrder" class="questionContainer">
+                    <div class="prompt">
+                        <p>
+                            <span class="prefix">Prompt:</span> The text below is not displaying correctly.
+                            <style type="text/css">
+                            #cssOrder .joke {
+                                background: #FF6E90;
+                                padding: 1em;
+                            }
+
+                            .jokeAnswer {
+                                color: black !important;
+                            }
+                            </style>
+                            <div class="joke">
+                                <div class="jokeQuestion">Q: What is the object-oriented way to become wealthy?</div>
+                                <br>
+                                <div style="color: black;" >A: Inheritance</div>
+                                <br>
+                                <div class="notDisplay">^^^ Answer should display</div>
+                            </div>
+                        </p>
+                        <p>
+                            <ol type="a">
+                                <li>Identify the error and correct it.</li>
+                                <li>How would you explain what you did to a non-technical client?</li>
+                            </ol>
+                        </p>
+                    </div>
+                    <!--prompt -->
+                    <div class="answer">
+                        <p>
+                            <span class="prefix">Answer:</span>
+                        </p>
+                        <div class='answer-section'>
+                            There are two cases here, In the attached question.css file, a class with jokeAnswer
+                            has been applied with a style and in the same question.html file, there is a style file with 
+                            jokeAnswer style and on the div element, both style and the class was applied to the element
+                            which is having a first style with color of the background of the parent div and the second style 
+                            is having the black color, because the question.css with jokeAnswer has important declaration and also
+                            the inline style of jokeAnswer has important declaration, the linked and global css has more priority 
+                            than the inline styling. So, it is either the class of jokeAnswer is being removed or in the global
+                            css file, important declaration on jokeAnswer is removed and the leave the class as it is. 
+                        </div>
+                    </div>
+                </li>
+                <li id="apiDebugWeather" class="questionContainer">
+                    <div class="prompt">
+                        <p>
+                            <span class="prefix">Prompt:</span>
+                        </p> Mark, your client's web developer, has provided the following code snippet that "doesn't work". </p>
+                        <ol type="a">
+                            <li>Copy the code below and correct it.</li>
+                            <li>How would you explain what you did to a TECHNICAL client?</li>
+                        </ol>
+                        <pre class="brush: js; html-script: true">
+                                <!-- Copy this code into the answer block. -->
+                                $.ajax({
+                                url: 'https://api.weather.gov/gridpoints/EWX/155,90/forecast/hourly'
+                                }).done(function(res) {
+                                    var temp = res.properties.periods[0].temperature;
+                                });
+                                document.getelementbyid('temperature').innerHTML = temp
+                            </pre>
+                    </div>
+                    <div class="answer">
+                        <p>
+                            <span class="prefix">Answer:</span>
+                        </p>
+                       
+                        <script type="text/javascript">
+                       $.ajax({
+                                url: 'https://api.weather.gov/gridpoints/EWX/155,90/forecast/hourly'
+                                }).done(function(res) {
+                                    var temp = res.properties.periods[0].temperature;
+                                    document.getElementById('temperature').innerHTML = temp
+                                });
+                               
+                        </script>
+                        <p>
+                            The temperature is <span id="temperature"></span>F in Austin TX
+                        </p>
+                       <div class='answer-section'>
+                           <p>
+                               First, method on the document was not spelt correctly, the correct
+                               spelling for that method is "geElementById".
+                               Second problem is the fact that one of the code is outside the reach of 
+                               ajax query function will not make the temp variable to show in the html,
+                               so, the "document.getelementbyid('temperature').innerHTML = temp" has to be moved 
+                               inside of the code block of ajax to get id of the temperature in the document 
+                               and output the temp variable in the HTML.
+                           </p>
+                       </div>
+                    </div>
+                </li>
+                <li id="jsonOutput" class="questionContainer">
+                    <div class="prompt">
+                        <p>
+                            <span class="prefix">Prompt:</span> Below is an API URL.
+                            <pre class="brush: js; html-script: true">
+                                http://stg.api.bazaarvoice.com/data/reviews.json?apiversion=5.4&passkey=caB45h2jBqXFw1OE043qoMBD1gJC8EwFNCjktzgwncXY4&filter=Id:16970607&include=Products
+                                </pre> Write a function that accepts the URL and console logs a message with the following format:
+                            <pre class="brush: js; html-script: true">
+                                {UserNickname} from {UserLocation} gave this product a {Rating}. 
+                                example: John123 from Austin, TX gave this product a 5
+                                </pre>
+                        </p>
+                        <p>
+                            <b>Hint: Use the question above for reference.</b>
+                        </p>
+                        <div class="answer">
+                            <p>
+                                <span class="prefix">Answer:</span>
+                            </p>
+                            <!-- 
+                                I used Fetch API because JQuery is losing its existence and fetch or axios
+                                will be a more tools to be used in modern web development technologies
+                            -->
+                            <script type="text/javascript">
+                                function setData(url){
+                                    fetch(url).then(response => response.json())
+                                    .then(data => {
+                                        var result = data.Results[0]
+                                        console.log(`${result.UserNickname} from ${result.UserLocation} gave this product a ${result.Rating}`)
+                                    })
+                                }
+                                setData('http://stg.api.bazaarvoice.com/data/reviews.json?apiversion=5.4&passkey=caB45h2jBqXFw1OE043qoMBD1gJC8EwFNCjktzgwncXY4&filter=Id:16970607&include=Products')
+                            </script>
+                            <div class='answer-section'>
+                                <pre class="brush: js; html-script: true">
+                                    function setData(url){
+                                        fetch(url).then(response => response.json())
+                                        .then(data => {
+                                            var result = data.Results[0]
+                                            console.log(`${result.UserNickname} from ${result.UserLocation} gave this product a ${result.Rating}`)
+                                        })
+                                    }
+                                    setData('http://stg.api.bazaarvoice.com/data/reviews.json?apiversion=5.4&passkey=caB45h2jBqXFw1OE043qoMBD1gJC8EwFNCjktzgwncXY4&filter=Id:16970607&include=Products')
+                                </pre>
+                                I used Fetch API because JQuery is losing its existence and fetch or axios
+                                will be a more tools to be used in modern web development technologies
+                            </div>
+                        </div>
+                </li>
+                <li id="cssIssue" class="questionContainer">
+                    <div class="prompt">
+                        <p>
+                            <span class="prefix">Prompt:</span> The overlay menu below looks broken.
+                        </p>
+                        <p>
+                            Identify the issue and explain it to the client. <b>Do not fix it yourself.</b>
+                          
+                        </p>
+                    </div>
+                    <div class="baseEl">
+                        <button>Toggle Menu</button>
+                        <div class="dropdownEl">
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                                <li>Item 4</li>
+                                <li>Item 5</li>
+                                <ul>
+                        </div>
+                        <div class="textEl"><span style="font-weight:bold;">Lorem ipsum dolor sit amet</span>consectetur adipiscing elit. Quisque rhoncus rhoncus augue at aliquam. Sed sed faucibus mi. Suspendisse leo velit, molestie in dictum nec, accumsan id diam. Etiam sodales enim felis, eget eleifend lacus pharetra eget. Nam sed enim quam. Pellentesque ullamcorper iaculis lectus quis egestas. Integer fringilla sodales molestie. Ut et tempus lorem.</div>
+                    </div>
+                    <div class="answer">
+                        <p>
+                            <span class="prefix">Answer:</span>
+                        </p>
+                        <div class='answer-section'>
+                            The overlay menu is broken dowm because of the z-index that was specified on the 
+                            dropdownEl class, z-index specifies the stack order of an element, so, element with 
+                            greater stack will be stay above other element 
+                            a parent element with a z-index below the child element will stay below the child element.
+                            In this case, dropdownEl has a z-index of -1 which makes it show below the main content, 
+                            dropdownEl z-index of 3 will make it stay above the main element.
+                        </div>
+    
+                    </div>
+                </li>
+                <li id="customExperience" class="questionContainer">
+                    <div class="prompt">
+                        <p>
+                            <span class="prefix">Prompt:</span> Load a Social Commerce gallery on this page (place a div in the answer section). Here is the <a href="https://developers.curalate.com/guide/deploy-galleries-on-your-store/">Implementation documentation</a>.<br> Sitename: <b>AnnaTest-YPvnOK</b>. <br>Experience container ID: <b>product</b>. <br><br><b>Hint: </b>Replace a dynamic protocol in the script tag to https, otherwise galleries won't load locally.
+                        </p>
+                    </div>
+                    <div class="answer">
+                        <p>
+                            <span class="prefix">Answer:</span>
+                        </p>
+                        <script>
+                            var CRL8_SITENAME = 'AnnaTest-YPvnOK'; 
+                            !function(){var e=window.crl8=window.crl8||{},n=!1,i=[];e.ready=function(e){n?e():i.push(e)},e.pixel=e.pixel||function(){e.pixel.q.push(arguments)},e.pixel.q=e.pixel.q||[];var t=window.document,o=t.createElement("script"),c=e.debug||-1!==t.location.search.indexOf("crl8-debug=true")?"js":"min.js";o.async=!0,o.src=t.location.protocol+"//edge.curalate.com/sites/"+CRL8_SITENAME+"/site/latest/site."+c,o.onload=function(){n=!0,i.forEach(function(e){e()})};var r=t.getElementsByTagName("script")[0];r.parentNode.insertBefore(o,r.nextSibling)}();
+                            </script>
+
+                    <div data-crl8-container-id="product"></div>
+                    </div>
+                </li>
+                <li id="react" class="questionContainer">
+                    <div class="prompt">
+                        <p>
+                            <span class="prefix">Prompt:</span> Finish <i>Welcome</i> component. It should return a div element with the text "Welcome, {user}", which in this case would compile to "Welcome, Engineer"
+                        </p>
+                        <pre class="brush: js">
+                            <script type="text/babel">
+                                function Welcome(props) {
+                                  return <div>Welcome, {/* TODO - Enter your code here*/}</div>;
+                                }
+                                class App extends React.Component {
+                                  render() {
+                                    return (<Welcome user="Engineer" />);
+                                  }
+                                }
+                                const rootElement = document.getElementById("react-answer");
+                                ReactDOM.render(<App />, rootElement);
+                            </script>
+                        </pre>
+                    </div>
+                    <div class="answer">
+                        <p>
+                            <span class="prefix">Answer:</span>
+                        </p>
+                        <!--Object destructuring can be used as well to destructure the props-->
+                        <script type="text/babel">
+                            function Welcome(props) {
+                              return <div>Welcome, {props.user}</div>;
+                            }
+                            class App extends React.Component {
+                              render() {
+                                return (<Welcome user="Engineer" />);
+                              }
+                            }
+                            const rootElement = document.getElementById("react-answer");
+                            ReactDOM.render(<App />, rootElement);
+                        </script>
+                          <div id="react-answer"></div>
+                    </div>
+                </li>
+                <li id="rateLimit" class="questionContainer">
+                    <div class="prompt">
+                        <p>
+                            <span class="prefix">Prompt:</span> Below is a callback. Explain what that is and what are good uses for this JS pattern.
+                        </p>
+                        <pre class="brush: js">
+                            function sayTime(time) {
+                              alert('The time is ' + time);
+                            }
+
+                            function findTime(callback) {
+                              time = new Date()
+                              callback(time);
+                            }
+    
+                            findTime(sayTime);
+                        </pre>
+                    </div>
+                    <div class="answer">
+                        <p>
+                            <span class="prefix">Answer:</span>
+                        </p>
+                      <div class="answer-section">
+                          <p>
+                            A callback function is a function that can be passed to another function as an
+                            arguement, which is then invoked in the outer funtion to complete some actions
+                            A callback function is commonly used in asychronous programming in which some tasks
+                            are run in the background and a callback function is being passed to the asynchronous
+                            function which will then be run when the asynchronous task runs finish.
+                            It is useful in asynchronous task.
+                          </p>
+                      </div>
+                    </div>
+                </li>
+                <li id="schemaOrg" class="questionContainer">
+                    <div class="prompt">
+                        <p>
+                            <span class="prefix">Prompt:</span> Please explain - to a non-technical person - the difference between server side and client side rendering.
+                        </p>
+                    </div>
+                    <div class="answer">
+                        <p>
+                            <span class="prefix">Answer:</span>
+                        </p>
+                        <div class='answer-section'>
+                           <p>
+                               Server side rendering can be executed by web servers and it is being used to 
+                               create dynamic pages and it has access to the file system residing at the
+                               web servers. It can store data directly to the database and it does not run on 
+                               web browsers.
+                               In other words, server side rending is a code that runs at the background that is
+                               not visible to the user. User can not interact with the code. It is used to create
+                               and generate dynamic pages.
+                           </p> 
+                           <p>
+                               Client side rendering can be executed by the web browsers. It is run on the 
+                               user's computer and the user will be able to interact with the page.In client-side
+                               rendering, user does not have access to the file system or database. It does not provide 
+                               security for the data as well.
+                           </p>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/syntaxhighlighter/scripts/shCore.js"></script>
+        <script type="text/javascript" src="js/syntaxhighlighter/scripts/shBrushXml.js"></script>
+        <script type="text/javascript" src="js/syntaxhighlighter/scripts/shBrushJScript.js"></script>
+        <script type="text/javascript" src="js/questions.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>
